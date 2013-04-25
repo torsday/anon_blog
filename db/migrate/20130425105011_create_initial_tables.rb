@@ -7,7 +7,7 @@ class CreateInitialTables < ActiveRecord::Migration
     end
 
     create_table :posts do |t|
-      t.string :author
+      t.references :author
       t.string :title
       t.text :content
       t.timestamps
