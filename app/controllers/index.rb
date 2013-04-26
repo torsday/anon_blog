@@ -34,7 +34,9 @@ end
 ###############################################################
 
 get '/posts' do
-  "Here are all the posts"
+  # "Here are all the posts"
+  @all_posts = Post.all
+  erb :all_posts
 end
 
 get '/users/:id/posts' do
