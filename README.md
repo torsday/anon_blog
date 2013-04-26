@@ -12,10 +12,6 @@ Delete an existing post
 
 Show me all posts with a given tag
 
-paginated_pages
-  list of all posts
-  list of posts for a given tag
-  list of posts by author
 
 ### Section 2
 ---
@@ -41,7 +37,13 @@ Also add a route so that when someone visits
 we see a list of all posts created by user #123. The author's name in the byline should link to this page.
 
 
+### Section 3
+---
 
+paginated_pages
+  list of all posts
+  list of posts for a given tag
+  list of posts by author
 
 
 
