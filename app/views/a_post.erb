@@ -7,7 +7,7 @@
   <h2><a href='/users/<%= @the_post.user.id %>/posts'><%= @the_post.user.name %></a></h2>
   <h5>
     <% @the_post.tags.each do |tag| %>
-    <a href='/tag/<%=tag.id%>/posts'><%= tag.name %></a>, 
+      <a href='/tag/<%=tag.id%>/posts'><%= tag.name %></a>, 
     <% end %>
   </h5>
 
@@ -21,15 +21,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-</div>
 

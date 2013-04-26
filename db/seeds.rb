@@ -1,6 +1,6 @@
 require 'faker'
 
-14.times do
+9.times do
   Tag.create({
     name: Faker::Lorem.word
     })

@@ -23,3 +23,4 @@ group :test do
 end
 
 # gem 'will_paginate'
+gem 'bcrypt-ruby'

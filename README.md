@@ -1,7 +1,7 @@
 # anon_blog
 =========
 
-### Part I
+### Part 1
 ---
 
 Show me all posts
@@ -13,7 +13,7 @@ Delete an existing post
 Show me all posts with a given tag
 
 
-### Section 2
+### Part 2
 ---
 
 A user being prompted to log in
@@ -37,7 +37,7 @@ Also add a route so that when someone visits
 we see a list of all posts created by user #123. The author's name in the byline should link to this page.
 
 
-### Section 3
+### Part 3
 ---
 
 paginated_pages
