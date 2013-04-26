@@ -1,0 +1,10 @@
+<div class='container'>
+
+  <h1><%= @the_user.name %></h1>
+  <h2>Posts</h2>
+
+  <% @the_user.posts.each do |post| %>
+    <p><a href='/post/<%=post.id%>'><%= post.title %></a></p>
+  <% end %>
+
+</div>

@@ -41,14 +41,20 @@ end
 
 get '/users/:id/posts' do
   "here will be user #{params[:id]}'s page with info and articles"
+  @the_user = User.find(params[:id])
+  erb :user_page
 end
 
 get '/post/:id' do
-  "here's the post #{params[:id]} If it's yours, you'll have a button to edit it"
+  # "here's the post #{params[:id]} If it's yours, you'll have a button to edit it"
+  @the_post = Post.find(params[:id].to_i)
+  erb :a_post
 end
 
 get '/tag/:id/posts' do
-  "show posts of tag #{params[:id]}"
+  # "show posts of tag #{params[:id]}"
+  @the_tag = Tag.find(params[:id])
+  erb :a_tag_page
 end
 
 ###############################################################

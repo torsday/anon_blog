@@ -1,0 +1,35 @@
+
+
+<div class='container'>
+
+  <h1><%= @the_post.title %></h1>
+
+  <h2><a href='/users/<%= @the_post.user.id %>/posts'><%= @the_post.user.name %></a></h2>
+  <h5>
+    <% @the_post.tags.each do |tag| %>
+    <a href='/tag/<%=tag.id%>/posts'><%= tag.name %></a>, 
+    <% end %>
+  </h5>
+
+
+
+  <p><%= @the_post.content %></p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
