@@ -1,36 +1,9 @@
 
-<meta charset="utf-8" />
-<title>Flat Nav</title>
+<%= erb :_nav_bar, :layout => false %>
 
-<link href="style.css" rel="stylesheet" />
-
-<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+<%= erb :_posts, :layout => false %>
 
 
-<div id="demo">
-  <nav>
-    <ul>
-      <li>
-        <a href="#">
-          <span>Home</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <span>About</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <span>Portfolio</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <span>Contact</span>
-        </a>
-      </li>
-      
-    </ul>
-  </nav>
-</div>
+<%= erb :_post_edit, :layout => false %>
+
+

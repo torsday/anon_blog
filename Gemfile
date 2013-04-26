@@ -22,4 +22,4 @@ group :test do
   gem 'rspec'
 end
 
-gem 'will_paginate'
+# gem 'will_paginate'
