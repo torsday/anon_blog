@@ -159,3 +159,19 @@ we see a list of all posts created by user #123. The author's name in the byline
 
 
 ```
+
+
+
+
+
+### References
+---
+
+- [Unstage an added file in Git](https://makandracards.com/makandra/682-unstage-an-added-file-in-git)
+- [Can you explain what “git reset” does in plain english?](http://stackoverflow.com/questions/2530060/can-you-explain-what-git-reset-does-in-plain-english)
+- [Delete files from git index when they are already deleted from fs](http://stackoverflow.com/questions/6090732/delete-files-from-git-index-when-they-are-already-deleted-from-fs)
+
+
+
+
+
