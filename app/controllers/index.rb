@@ -19,10 +19,10 @@ end
 ###############################################################
 
 post '/post/create' do
-# create a new post
+  "create a new post"
 end
 
-gets '/user/create' do
+get '/user/create' do
   "create a new user"
 end
 
@@ -34,7 +34,7 @@ end
 ###############################################################
 
 get '/posts' do
-"Here are all the posts"
+  "Here are all the posts"
 end
 
 get '/users/:id/posts' do
@@ -42,11 +42,11 @@ get '/users/:id/posts' do
 end
 
 get '/post/:id' do
-"here's the post #{params[:id]} If it's yours, you'll have a button to edit it"
+  "here's the post #{params[:id]} If it's yours, you'll have a button to edit it"
 end
 
 get '/tag/:id/posts' do
-"show posts of tag #{params[:id]}"
+  "show posts of tag #{params[:id]}"
 end
 
 ###############################################################
@@ -54,7 +54,7 @@ end
 ###############################################################
 
 get '/post/edit/:id' do
-"here you'll edit post with id #{params[:id]}"
+  "here you'll edit post with id #{params[:id]}"
 end
 
 ###############################################################
@@ -62,7 +62,7 @@ end
 ###############################################################
 
 delete '/post/:id' do
-"deletes post with id #{params[:id]} if user has appro. creds."
+  "deletes post with id #{params[:id]} if user has appro. creds."
 end
 
 
